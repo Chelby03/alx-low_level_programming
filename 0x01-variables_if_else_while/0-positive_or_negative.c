@@ -3,9 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
 /*
- * main- Entry point of function
+ * main- Entry point for all c code in this program
  * printf: prints a string to the standard output
  * Return: 0
  */
@@ -27,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("%d in negative\n", n);
+		printf("%d is negative\n", n);
 	}
 
 	return (0);
